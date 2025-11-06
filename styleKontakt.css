@@ -1,0 +1,185 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: url('img.PNG') repeat; /* Hintergrundbild wiederholen */
+    background-color: #000; /* Hintergrundfarbe für leere Bereiche */
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 0px; /* Weniger Polsterung oben und unten */
+    text-align: center;
+    height: auto; /* Automatische Höhe, um den Inhalt zu passen */
+}
+
+/* Hauptlogo */
+.main-logo {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b87c62; /* Warme metallische Farbe */
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: rgba(184, 124, 98, 0.8);
+}
+
+/* Hauptinhalt */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding: 20px;
+    background-color: #2a2a2a;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Titel */
+h2 {
+    border-bottom: 2px solid #b87c62;
+    margin-bottom: 15px;
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+    margin: 5px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #444;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Formularstile für Kontakt */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b87c62;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a56e5a;
+}
+
+/* Kontaktstile */
+.contact-info {
+    text-align: left; /* Linksbündig statt zentriert */
+    font-size: 16px;
+}
+
+.contact-info .email,
+.contact-info .telephone {
+    color: #b87c62;
+}
+
+/* Kompakte Tabellenstil für Dienstleistungen */
+.services-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.services-table th, .services-table td {
+    padding: 15px 20px; /* Mehr Polsterung für Lesbarkeit */
+    border: 1px solid #b87c62;
+    text-align: center; /* Zentrierter Text für kompakte Anzeige */
+}
+
+.services-table th {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.services-table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+/* Anpassungen für mobile Ansicht */
+@media (max-width: 600px) {
+    .services-table td, .services-table th {
+        padding: 12px; /* Weniger Polsterung für Mobilgeräte */
+        font-size: 14px; /* Kleinere Schriftgröße für Mobilgeräte */
+    }
+}
+
+.telephone-text { color: #b87c62; /* Setzt die Telefonnummer in die gewünschte Farbe */ 
+text-decoration: none; /* Entfernt die Unterstreichung */ }
+
+.telephone-text {
+    color: #b87c62; /* Setzt die Telefonnummer in die gewünschte Farbe */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
