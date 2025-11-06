@@ -172,3 +172,28 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Schatten für die Bilder */
 }
 
+.social-links {
+    display: flex;
+    gap: 20px; /* Abstand zwischen den Icons */
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2); /* leichte Vergrößerung beim Hover */
+}
+
+.social-icon {
+    width: 50px; /* Größe der Logos */
+    height: 50px;
+    border-radius: 50%; /* rund */
+    object-fit: cover;
+}
+
+
+
